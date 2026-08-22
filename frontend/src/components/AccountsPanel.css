@@ -1,0 +1,77 @@
+.accounts-panel {
+  margin: 20px 0 28px;
+}
+
+.accounts-toggle {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  padding: 9px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.accounts-list {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.account-row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  padding: 10px 14px;
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+}
+
+.account-name {
+  font-weight: 600;
+  font-size: 0.88rem;
+  flex: 1;
+}
+
+.account-devices {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+}
+
+.account-reset-form {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.account-reset-form input {
+  background: var(--surface);
+  border: 1px solid var(--accent);
+  color: var(--text);
+  padding: 7px 10px;
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  width: 140px;
+}
+
+.reset-result {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 14px;
+  background: var(--green-soft);
+  border: 1px solid var(--green);
+  border-radius: var(--radius-sm);
+  font-size: 0.85rem;
+  margin-bottom: 4px;
+}
+
+.reset-result code {
+  background: var(--surface);
+  padding: 2px 8px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}

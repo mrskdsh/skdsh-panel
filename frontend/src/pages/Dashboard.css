@@ -1,0 +1,22 @@
+.dash-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.peer-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.empty-state {
+  text-align: center;
+  color: var(--text-dim);
+  padding: 50px 20px;
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-md);
+  font-size: 0.9rem;
+}
